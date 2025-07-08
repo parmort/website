@@ -9,12 +9,12 @@ export const profile = {
         quartet in Chester County, PA, focusing on education and blending
         traditional string quartet repertoire with accessible selections.`
     },
-    {
-      group: 'Jarrettown United Methodist Church',
-      position: 'Director of Music',
-      description: `Direct the choir, manage the music ministry, and provide
-        accompaniment for services at the piano and organ.`,
-    },
+    // {
+    //   group: 'Jarrettown United Methodist Church',
+    //   position: 'Director of Music',
+    //   description: `Direct the choir, manage the music ministry, and provide
+    //     accompaniment for services at the piano and organ.`,
+    // },
   ],
 }
 
