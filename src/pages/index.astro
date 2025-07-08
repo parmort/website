@@ -5,7 +5,6 @@ import { profile } from '../settings'
 import Headshot from '../assets/headshot.jpg'
 import Hero from '../components/Hero.astro'
 import Grid from '../components/Grid.astro'
-// import ArticleList from '../components/ui/ArticleList.astro'
 
 const { fullName, title, description, positions } = profile
 ---
@@ -25,9 +24,4 @@ const { fullName, title, description, positions } = profile
   <section class='py-12 border-b'>
     <Grid gridTitle='Positions' gridItems={positions} />
   </section>
-
-  <!-- Recent Publications -->
-  <!--<section class='py-12 border-t'>-->
-  <!--  <ArticleList listTitle='Recent Publications' listItems={publications} />-->
-  <!--</section>-->
 </Layout>
