@@ -30,7 +30,6 @@ export const template = {
   menu_left: false,
   transitions: true,
   lightTheme: 'light', // Select one of the Daisy UI Themes or create your own
-  darkTheme: 'light', // Select one of the Daisy UI Themes or create your own
   excerptLength: 200,
   postPerPage: 5,
     base: '' // Repository name starting with /

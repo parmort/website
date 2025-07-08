@@ -1,9 +1,9 @@
 ---
-import Envelope from '@/assets/social-icons/envelope.svg'
-import Instagram from '@/assets/social-icons/instagram.svg'
-import YouTube from '@/assets/social-icons/youtube.svg'
+import Envelope from '../assets/social-icons/envelope.svg'
+import Instagram from '../assets/social-icons/instagram.svg'
+import YouTube from '../assets/social-icons/youtube.svg'
 
-import { social } from '@/settings'
+import { social } from '../settings'
 
 const activeSocial = Object.keys(social).filter((key) => social[key as keyof typeof social] !== '')
 const calculatedIconSize = activeSocial.length <= 5 ? 'size-6' : activeSocial.length <= 6 ? 'size-5' : 'size-4'

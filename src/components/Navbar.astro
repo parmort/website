@@ -1,12 +1,8 @@
 ---
 import { Picture } from 'astro:assets'
-import {profile} from '../../settings'
 import SocialIcons from './SocialIcons.astro'
-import Headshot from '@/assets/headshot.jpg'
-import { getCollection } from 'astro:content'
-import { template } from '@/settings'
-
-const isBlogPopulated = await getCollection('blog').then(collection => collection.length > 0)
+import Headshot from '../assets/headshot.jpg'
+import { template, profile } from '../settings'
 
 const {fullName, title} = profile
 ---
@@ -36,9 +32,6 @@ const {fullName, title} = profile
           <li>
             <a href={`${template.base}/media`} class='text-lg'>Listen</a>
           </li>
-          {isBlogPopulated && <li>
-            <a href={`${template.base}/blog/1`} class='text-lg'>Blog</a>
-          </li> }
         </ul>
       </div>
     </div>
