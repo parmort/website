@@ -1,0 +1,29 @@
+---
+import Layout from '@/layouts/Layout.astro'
+import { clips } from '@/data/media.ts'
+---
+
+<Layout title="Media">
+<div class="flex flex-col">
+{clips.map((clip) => (
+
+<div class="flex flex-col justify-center mx-0 md:mx-10 pb-12 border-b">
+  <h1 class="text-2xl">{clip.title}</h1>
+  <h2 class="text-xl text-gray-600 mb-4 pr-2">{clip.composer}</h2>
+
+  <div class="flex justify-center">
+    <iframe class="w-[300px] h-[189px] md:w-[560px] md:h-[315px]"
+      src={`https://youtube.com/embed/${clip.youtube_id}`}
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </div>
+  <p class="text-center mt-4">{clip.description}</p>
+</div>
+
+))}
+</div>
+</Layout>
