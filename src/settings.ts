@@ -1,6 +1,6 @@
 export const profile = {
   fullName: 'Nolan Prochnau',
-  title: 'Musician',
+  title: 'Violist & Organist',
   description: ``,
   highlighted_ensembles: [
     {
@@ -12,7 +12,8 @@ export const profile = {
     {
       group: 'Jarrettown United Methodist Church',
       position: 'Director of Music',
-      description: ``
+      description: `Direct the choir, manage the music ministry, and provide
+        accompaniment for services at the piano and organ.`,
     },
   ],
 }
@@ -20,13 +21,8 @@ export const profile = {
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
   email: 'nolanjprochnau@gmail.com',
-  linkedin: '',
-  x: '',
-  github: '',
-  gitlab: '',
-  scholar: '',
-  inspire: '',
-  arxiv: '',
+  youtube: `@njproc`,
+  instagram: 'njproc',
 }
 
 export const template = {
