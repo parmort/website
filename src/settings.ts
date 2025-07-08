@@ -1,7 +1,7 @@
 export const profile = {
   fullName: 'Nolan Prochnau',
   title: 'Musician',
-  description: `Violist and Organist`,
+  description: ``,
   highlighted_ensembles: [
     {
       group: 'Brandywine String Quartet',
