@@ -1,6 +1,7 @@
 ---
 import { ClientRouter } from 'astro:transitions';
 
+import Logo from '../assets/logo.svg'
 import BetterIcon from '../components/ui/BetterIcon.astro'
 import DarkLightController from '../components/ui/DarkLightController.astro'
 import Navbar from '../components/ui/Navbar.astro'
@@ -53,8 +54,9 @@ const {
                 </BetterIcon>
               </label>
             </div>
-            <div class='navbar-center lg:hidden text-lg'>
-              <span class='font-black'>{profile.fullName}</span>
+            <!--<div class='navbar-center lg:hidden text-lg'>-->
+            <div class='navbar-center text-lg'>
+              <Logo class="h-10 w-10 mr-2" />
             </div>
           </nav>
         </div>
