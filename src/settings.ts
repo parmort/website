@@ -2,19 +2,19 @@ export const profile = {
   fullName: 'Nolan Prochnau',
   title: 'Violist & Organist',
   description: ``,
-  highlighted_ensembles: [
+  positions: [
     {
       group: 'Brandywine String Quartet',
       description: `The Brandywine String Quartet is a concertizing string
         quartet in Chester County, PA, focusing on education and blending
         traditional string quartet repertoire with accessible selections.`
     },
-    {
-      group: 'Jarrettown United Methodist Church',
-      position: 'Director of Music',
-      description: `Direct the choir, manage the music ministry, and provide
-        accompaniment for services at the piano and organ.`,
-    },
+    // {
+    //   group: 'Jarrettown United Methodist Church',
+    //   position: 'Director of Music',
+    //   description: `Direct the choir, manage the music ministry, and provide
+    //     accompaniment for services at the piano and organ.`,
+    // },
   ],
 }
 

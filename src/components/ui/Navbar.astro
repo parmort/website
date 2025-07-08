@@ -2,13 +2,13 @@
 import { Image } from 'astro:assets'
 import {profile} from '../../settings'
 import SocialIcons from './SocialIcons.astro'
-import ProfilePictures from '@/assets/profile_pictures.jpg'
+import Headshot from '@/assets/headshot.jpg'
 import { getCollection } from 'astro:content'
 import { template } from '@/settings'
 
 const isBlogPopulated = await getCollection('blog').then(collection => collection.length > 0)
 
-const {fullName} = profile
+const {fullName, title} = profile
 ---
 <aside
   class='px-4 pt-4 h-screen w-[20rem] bg-base-200 text-base-content flex flex-col'
@@ -18,10 +18,11 @@ const {fullName} = profile
       <div class='flex justify-center items-center flex-col'>
         <Image
           class='mask mask-circle size-44'
-          src={ProfilePictures}
+          src={Headshot}
           alt={`Profile picture of ${fullName}`}
         />
         <h1 class="text-lg mt-8 hidden lg:block font-black">{fullName}</h1>
+        <h2 class="text-gray-600 hidden lg:block">{title}</h2>
       </div>
       <div class='mx-4 mt-16'>
         <ul class='space-y-4 menu grow shrink menu-md overflow-y-auto'>

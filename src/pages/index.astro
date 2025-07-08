@@ -2,29 +2,28 @@
 import Layout from '../layouts/Layout.astro'
 
 import { profile } from '@/settings'
-import { publications } from '@/data/cv'
-import ProfilePictures from '@/assets/profile_pictures.jpg'
+import Headshot from '@/assets/headshot.jpg'
 import Hero from '@/components/ui/Hero.astro'
 import Grid from '@/components/ui/Grid.astro'
 import ArticleList from '@/components/ui/ArticleList.astro'
 
-const { fullName, title, description, highlighted_ensembles } = profile
+const { fullName, title, description, positions } = profile
 ---
 
 <Layout>
   <!-- Hero Section -->
-  <section class='flex items-center gap-12 border-b pb-12'>
+  <section class='flex items-center gap-12 border-b pb-12 px-10'>
     <Hero
       fullName={fullName}
       title={title}
       blurb={description}
-      profilePicture={ProfilePictures}
+      profilePicture={Headshot}
     />
   </section>
 
   <!-- Research Areas -->
   <section class='py-12 border-b'>
-    <Grid gridTitle='Highlighted Positions' gridItems={highlighted_ensembles} />
+    <Grid gridTitle='Positions' gridItems={positions} />
   </section>
 
   <!-- Recent Publications -->
