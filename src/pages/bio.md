@@ -30,10 +30,10 @@ attended the Fresno Orchestra Summer Academy, where they performed Mahler's
 Symphony No. 5 and Shostakovich's Symphony No. 11. The 2022 performance of the
 Mahler symphony was recorded and released in the fall of 2024.
 
-In the summer of 2023, Prochnau gave solo performances in Europe, joining the
-choir of West Chester's First Presbyterian Church. On this tour, they gave
-concerts at Peterskirche in Vienna and Kálvin téri Református Templom in
-Budapest.
+A longtime church musician, Prochnau also plays the organ and has worked and
+volunteered their talents for churches of a variety of denominations. Most
+recently, they served as the principal organist for Holy Family Parish in
+Philadelphia.
 
 Prochnau studied at West Chester University with Prof. Adriana Linares, and
 received regular chamber music coachings from members of the Dalí Quartet. They
