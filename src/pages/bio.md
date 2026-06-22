@@ -30,12 +30,13 @@ attended the Fresno Orchestra Summer Academy, where they performed Mahler's
 Symphony No. 5 and Shostakovich's Symphony No. 11. The 2022 performance of the
 Mahler symphony was recorded and released in the fall of 2024.
 
-A longtime church musician, Prochnau also plays the organ and has worked and
-volunteered their talents for churches of a variety of denominations. Most
-recently, they served as the principal organist for Holy Family Parish in
-Philadelphia.
+Prochnau is a longtime church musician, currently serving as the music director
+for the Jarrettown United Methodist Church. There, they direct the choir and
+handbell choir and accompany services on organ and piano. Previously, Prochnau
+worked for and volunteered their talents at churches of a varying denominations.
 
-Prochnau studied at West Chester University with Prof. Adriana Linares, and
-received regular chamber music coachings from members of the Dalí Quartet. They
-are excited to start their master's degree at Temple University this fall and
-further build their growing career.
+Prochnau currently studies at Temple University with Prof. Kerri Ryan, where
+they expect to complete their Master's degree this coming Spring. Their
+Bachelor's degree was earned at West Chester University, where they studied with
+Prof. Adriana Linares and recieved regular chamber music coachings from members
+of the Dalí Quartet.
